@@ -1,3 +1,7 @@
+/**
+    * @author Alejandro Alcaraz Torija
+    */
+
 public class Tarea {
 
      /**

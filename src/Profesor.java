@@ -1,3 +1,7 @@
+
+/**
+    * @author Alejandro Alcaraz Torija
+    */
 public class Profesor extends Persona {
 
      /**
@@ -36,9 +40,11 @@ public class Profesor extends Persona {
 
     private Modulo[] docencia;
 
+    //Funcion que añade modulo a profesor
     public void anadirmodulo() {
     }
 
+    //Funcion que saca el NRP
     public void setNRP() {
     }
 }

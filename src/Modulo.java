@@ -1,3 +1,6 @@
+/**
+    * @author Alejandro Alcaraz Torija
+    */
 public class Modulo {
 
      /**
@@ -72,12 +75,16 @@ public class Modulo {
 
     private String contenido;
 
+    
+    
+    //Metodo para matricular alumno.
     public void matricularAlumno() {
     }
-
+    
+    //Metodo para matricular alumno.
     public void contratarProfesor() {
     }
-
+    //Metodo que evalua al alumno.
     public void evaluarAlumno() {
     }
 }

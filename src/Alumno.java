@@ -1,21 +1,31 @@
+
+
+     /**
+     * @author Alejandro Alcaraz Torija
+     */
 public class Alumno extends Persona {
 
     private double notamedia;
 
     private Modulo[] matricula;
 
+   
+    //Metodo que emite un certificado con las competencias completadas.
     public void emitirCertificado() {
     }
-
+    
+     //Metodo que calcula la nota media
     public double calcularNotaMedia() {
         throw new UnsupportedOperationException("Not supported yet.");
     }
 
+    //Metodo que matricula al alumno.
+    
     public void matricular() {
     }
 
      /**
-      * @return the notamedia
+      * @return notamedia
       */
      public double getNotamedia()
        {
@@ -23,7 +33,7 @@ public class Alumno extends Persona {
        }
 
      /**
-      * @param notamedia the notamedia to set
+      *  notamedia set @param notamedia 
       */
      public void setNotamedia(double notamedia)
        {
@@ -39,7 +49,7 @@ public class Alumno extends Persona {
        }
 
      /**
-      * @param matricula the matricula to set
+      * the matricula to set @param matricula 
       */
      public void setMatricula(Modulo[] matricula)
        {

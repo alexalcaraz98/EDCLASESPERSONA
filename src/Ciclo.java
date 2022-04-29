@@ -1,3 +1,6 @@
+    /**
+    * @author Alejandro Alcaraz Torija
+    */
 public class Ciclo {
 
     private String nombre;
